@@ -10,4 +10,4 @@ data.rename(columns={
 }, inplace=True)
 
 # Eliminar valores nulos (NaN) en las columnas de interés
-data_clean = data.dropna(subset=['Kilotons_CO2', 'Metric_Tons_Per_Capita'])
+data = data.dropna(subset=['Kilotons_CO2', 'Metric_Tons_Per_Capita'])
